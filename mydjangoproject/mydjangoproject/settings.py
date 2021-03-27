@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'boards'
+    'widget_tweaks',
+    'accounts',
+    'boards',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +129,4 @@ STATICFILES_DIRS = [
     ]
 
 
+LOGOUT_REDIRECT_URL = 'home'
